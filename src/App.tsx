@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { DashboardState, bitable, dashboard } from "@lark-base-open/js-sdk";
 import Config from './components/Config';
 import { useCallback, useEffect } from 'react';
