@@ -80,3 +80,7 @@ body[theme-mode="dark"] {
   /* width: 350px; */
 }
 
+.goal-app .semi-table-tbody > .semi-table-row, 
+.goal-app .semi-table-thead > .semi-table-row > .semi-table-row-head {
+  background-color: transparent; 
+}
