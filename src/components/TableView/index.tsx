@@ -99,5 +99,5 @@ export default () => {
     
 
     return <Table columns={columns} dataSource={tableData} pagination={false} 
-                style={{ background: tableBgColor }}/>
+                style={{ background: tableBgColor, overflow: 'auto' }}/>
 }
