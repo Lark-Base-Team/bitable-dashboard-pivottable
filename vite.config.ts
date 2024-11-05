@@ -6,6 +6,11 @@ import { semiTheming } from "vite-plugin-semi-theming";
 // https://vitejs.dev/config/
 export default defineConfig({
   base: './',
+  build: {
+    rollupOptions: {
+      external: ['#minpath', '#minproc', '#minurl']
+    }
+  },
   plugins: [react(), svgr(), semiTheming({
     theme: "@semi-bot/semi-theme-feishu-dashboard",
   })],
